@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Python version / lock
+.python-version
+uv.lock
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Claude Code local settings (contains machine-specific permissions, not project config)
+.claude/
+
+# Simulation progress (player-specific save state, not source)
+docs/04-outputs/progress.json
+
+# Frontend (has its own .gitignore; node_modules etc handled there)
+frontend/node_modules/
+frontend/.next/
+frontend/.env*
